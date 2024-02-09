@@ -17,12 +17,14 @@
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .small-card__description{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .container__small-card__separator{
