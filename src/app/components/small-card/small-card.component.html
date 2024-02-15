@@ -1,5 +1,4 @@
 <div class="container__small-card">
-  <a href="https://diolinux.com.br/video/flathub-se-consolidando.html">
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
@@ -10,10 +9,9 @@
     </div>
 
     <div class="small-card__title">
-      <h3>{{ cardTitle }}</h3>
+      <h3><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h3>
     </div>
   </div>
-</a>
 
 <div class="container__small-card__separator">
   <hr>

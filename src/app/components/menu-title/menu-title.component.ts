@@ -14,5 +14,4 @@ export class MenuTitleComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

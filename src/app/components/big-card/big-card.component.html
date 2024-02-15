@@ -1,20 +1,22 @@
 <div class="container__big-card">
-  <a href="https://angular.io/resources?category=community">
   <div class="big-card__photo">
     <img
-      src="{{ photoCover }}"
-      alt="imagem do layout"
-      height="200px"
-
+    src="{{ photoCover }}"
+    alt="imagem do layout"
+    height="200px"
+    srcset=""
     >
   </div>
 
   <div class="big-card__title">
-    <h1>{{ cardTitle }}</h1>
+    <h1><a [routerLink]="['content', Id]">{{cardTitle }}</a></h1>
   </div>
 
-  <div class="big-card__description"> {{ cardDescription }}
-
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+        {{ cardDescription }}
+      </a>
+    </p>
   </div>
-</a>
 </div>
