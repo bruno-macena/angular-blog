@@ -21,6 +21,14 @@
 }
 
 .content__description > p{
-  margin-top: 20px;
+  margin-top: 10px;
   color: rgb(179, 177, 177);
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-left:800px;
+}
+
+a{
+  margin-top: 50px;
 }
