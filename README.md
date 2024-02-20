@@ -1,5 +1,9 @@
 # AngularBlog
 
+Projeto desenvolvido no curso DIO, com base na framework Angular.
+
+Link do Surge: http://raspy-ink.surge.sh/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 Node.js - [Node JS] (https://nodejs.org/en) Version node-v16.20.2-x64.
