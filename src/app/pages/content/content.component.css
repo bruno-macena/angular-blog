@@ -21,12 +21,14 @@
 }
 
 .content__description > p{
-  margin-top: 10px;
+  width: 100%;
   color: rgb(179, 177, 177);
-  width: 40%;
-  display: flex;
-  align-items: center;
-  margin-left:800px;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
 }
 
 a{
